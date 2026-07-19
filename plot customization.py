@@ -4,7 +4,7 @@ import numpy as np
 x = np.array([2023, 2024, 2025, 2026])
 y = np.array([3, 15, 28, 31])
 plt.plot(x, y, marker=".",    # customize the marker
-                markersize=20,     # customize the marker size
+                markersize=30,     # customize the marker size
                 markerfacecolor="Red",   # customize the color of the marker 
                 markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
                 )     
