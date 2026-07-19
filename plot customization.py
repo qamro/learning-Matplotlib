@@ -6,10 +6,9 @@ y = np.array([3, 15, 28, 31])
 plt.plot(x, y, marker=".",    # customize the marker
                 markersize=20,     # customize the marker size
                 markerfacecolor="Red",   # customize the color of the marker 
-                markeredgecolor="Green",
-                )   # customize the color of the edges(borders) of the marker  
+                markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
+                )     
 plt.show()
-
 
 
 
