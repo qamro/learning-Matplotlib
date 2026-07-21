@@ -51,3 +51,16 @@ X : filled x
 _ : horizontal line
 
 """
+
+
+
+"""
+HERE ARE ALL THE LINE STYLES :
+
+"solid" or "-" → Solid
+"dashed" or "--" → Dashed
+"dashdot" or "-." → Dash-dot
+"dotted" or ":" → Dotted
+"None" (or "", " ", "none") → No line (markers only)
+
+"""
