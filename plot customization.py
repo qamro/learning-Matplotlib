@@ -8,7 +8,7 @@ plt.plot(x, y, marker=".",    # customize the marker
                 markerfacecolor="Red",   # customize the color of the marker 
                 markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
                 linestyle="solid",  # customize the line style of the plot
-                linewidth=3,
+                linewidth=3,  # customize the line width of the plot(its linewidth=1 by default btw)
                 color="Grey")     
 plt.show()
 
