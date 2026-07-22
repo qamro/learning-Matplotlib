@@ -9,7 +9,7 @@ plt.plot(x, y, marker=".",    # customize the marker
                 markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
                 linestyle="solid",  # customize the line style of the plot
                 linewidth=4,  # customize the line width of the plot(its linewidth=1 by default btw)
-                color="Grey")     
+                color="Grey")  # customize the color of the line plot
 plt.show()
 
 
