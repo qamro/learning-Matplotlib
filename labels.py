@@ -24,6 +24,9 @@ plt.ylabel("Students",  fontsize=15,  # customize the font size of the y label
                         fontweight="bold",  # customize the font weight(font type) of the y label
                         color="Blue")  # customize the font color of the y label
 
+# customize the x axis to make it shows only the x values
+plt.xticks(x)
+
 plt.plot(x, y1)
 plt.plot(x, y2)
 plt.plot(x, y3)
