@@ -21,7 +21,7 @@ plt.plot(x, y2, marker=".",    # customize the marker
                 markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
                 linestyle="solid",  # customize the line style of the plot
                 linewidth=3,  # customize the line width of the plot(its linewidth=1 by default btw)
-                color="Grey")  # customize the color of the line plot)
+                color="Orange")  # customize the color of the line plot)
 
 # customize a third plot line in the same figure with the first and the second plots
 plt.plot(x, y3, marker=".",    # customize the marker
@@ -30,7 +30,7 @@ plt.plot(x, y3, marker=".",    # customize the marker
                 markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
                 linestyle="solid",  # customize the line style of the plot
                 linewidth=3,  # customize the line width of the plot(its linewidth=1 by default btw)
-                color="Grey")  # customize the color of the line plot)
+                color="Blue")  # customize the color of the line plot)
 plt.show()
 
 
