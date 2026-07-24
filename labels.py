@@ -10,7 +10,7 @@ y3 = np.array([25, 12, 40, 2])
 plt.title("Class size", fontsize=20,  # customize the font size of the title
                         family="Arial",  # customize the font family of the title
                         fontweight="bold",  # customize the font weight(font type) of the title
-                        color="Red")
+                        color="Red")  # customize the font color of the title
 
 plt.plot(x, y1)
 plt.plot(x, y2)
