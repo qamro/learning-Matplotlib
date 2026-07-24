@@ -2,14 +2,25 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.array([2023, 2024, 2025, 2026])
-y = np.array([3, 15, 28, 31])
-plt.plot(x, y, marker=".",    # customize the marker
+y1 = np.array([3, 15, 28, 31])
+y2 = np.array([5, 32, 15, 7])
+plt.plot(x, y1, marker=".",    # customize the marker
                 markersize=30,     # customize the marker size
                 markerfacecolor="Red",   # customize the color of the marker 
                 markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
                 linestyle="solid",  # customize the line style of the plot
                 linewidth=4,  # customize the line width of the plot(its linewidth=1 by default btw)
                 color="Grey")  # customize the color of the line plot
+
+# NOTE: we can use multiple plots in the same figure
+# customize a second plot line in the same figure with the first plot
+plt.plot(x, y2, marker=".",    # customize the marker
+                markersize=30,     # customize the marker size
+                markerfacecolor="Red",   # customize the color of the marker 
+                markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
+                linestyle="solid",  # customize the line style of the plot
+                linewidth=4,  # customize the line width of the plot(its linewidth=1 by default btw)
+                color="Grey")  # customize the color of the line plot)
 plt.show()
 
 
