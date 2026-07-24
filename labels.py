@@ -12,6 +12,8 @@ plt.title("Class size", fontsize=20,  # customize the font size of the title
                         fontweight="bold",  # customize the font weight(font type) of the title
                         color="Red")  # customize the font color of the title
 
+# customize the x label
+plt.xlabel("Year")
 plt.plot(x, y1)
 plt.plot(x, y2)
 plt.plot(x, y3)
