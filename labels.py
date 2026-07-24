@@ -7,7 +7,8 @@ y2 = np.array([5, 32, 15, 7])
 y3 = np.array([25, 12, 40, 2])
 
 # customize the title of the plots
-plt.title("Class size")
+plt.title("Class size", fontsize=20,  # customize the font size of the title
+                        )
 
 plt.plot(x, y1)
 plt.plot(x, y2)
