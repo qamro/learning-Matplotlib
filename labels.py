@@ -27,6 +27,10 @@ plt.ylabel("Students",  fontsize=15,  # customize the font size of the y label
 # customize the x axis to make it shows only the x values
 plt.xticks(x)
 
+# customize the ticks of x and y axis
+plt.tick_params(axis="both", # here u can choose any axis u want(for example: axis="x" or axis="y" or axis="both")
+                colors="Green") # customize the colors of the ticks
+
 plt.plot(x, y1)
 plt.plot(x, y2)
 plt.plot(x, y3)
