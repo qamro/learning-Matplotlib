@@ -13,7 +13,7 @@ plt.title("Class size", fontsize=20,  # customize the font size of the title
                         color="Red")  # customize the font color of the title
 
 # customize the x label
-plt.xlabel("Year", fontsize=20,  # customize the font size of the x label
+plt.xlabel("Year",  fontsize=20,  # customize the font size of the x label
                     family="Arial",  # customize the font family of the x label
                     fontweight="bold",  # customize the font weight(font type) of the x label
                     color="Red")  # customize the font color of the x label
