@@ -17,6 +17,13 @@ plt.xlabel("Year",  fontsize=15,  # customize the font size of the x label
                     family="Arial",  # customize the font family of the x label
                     fontweight="bold",  # customize the font weight(font type) of the x label
                     color="Blue")  # customize the font color of the x label
+
+# customize the y label
+plt.ylabel("Students",  fontsize=15,  # customize the font size of the y label
+                        family="Arial",  # customize the font family of the y label
+                        fontweight="bold",  # customize the font weight(font type) of the y label
+                        color="Blue")  # customize the font color of the y label
+
 plt.plot(x, y1)
 plt.plot(x, y2)
 plt.plot(x, y3)
