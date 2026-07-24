@@ -13,7 +13,7 @@ plt.xticks(x)
 plt.tick_params(axis="both", # here u can choose any axis u want(for example: axis="x" or axis="y" or axis="both")
                 colors="Green") # customize the colors of the ticks
 
-
+# customize the first plot
 plt.plot(x, y1, marker=".",    # customize the marker
                 markersize=15,     # customize the marker size
                 markerfacecolor="Red",   # customize the color of the marker 
