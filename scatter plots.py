@@ -7,7 +7,9 @@ import numpy as np
 # create and customize the scatter plot
 x = np.array([0, 1, 1 ,2, 3, 4, 5, 6, 8, 8]) # hours studied
 y = np.array([4, 7, 8, 9, 11, 12.5, 14, 15, 17, 19]) # Grades
-plt.scatter(x, y)
+plt.scatter(x, y, color="orange", # customize the color of the dots in scatter plot
+                    alpha=0.5, # customize the transparency of the color of the dots in scatter plot
+                    s=100) # customize the size of the dots in scatter plot
 plt.title("Test Marks")
 plt.xlabel("Hours Studied")
 plt.ylabel("Grades")
