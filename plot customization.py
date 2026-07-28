@@ -20,7 +20,8 @@ plt.plot(x, y1, marker=".",    # customize the marker
                 markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
                 linestyle="solid",  # customize the line style of the plot
                 linewidth=3,  # customize the line width of the plot(its linewidth=1 by default btw)
-                color="Grey")  # customize the color of the line plot
+                color="Grey",  # customize the color of the line plot
+                label="the first") # customize the label name of the line plot
 
 # NOTE: we can use multiple plots in the same figure
 # customize a second plot line in the same figure with the first plot
@@ -30,7 +31,8 @@ plt.plot(x, y2, marker=".",    # customize the marker
                 markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
                 linestyle="solid",  # customize the line style of the plot
                 linewidth=3,  # customize the line width of the plot(its linewidth=1 by default btw)
-                color="Orange")  # customize the color of the line plot)
+                color="Orange",  # customize the color of the line plot
+                label="the second") # customize the label name of the line plot
 
 # customize a third plot line in the same figure with the first and the second plots
 plt.plot(x, y3, marker=".",    # customize the marker
@@ -39,7 +41,10 @@ plt.plot(x, y3, marker=".",    # customize the marker
                 markeredgecolor="Green",  # customize the color of the edges(borders) of the marker
                 linestyle="solid",  # customize the line style of the plot
                 linewidth=3,  # customize the line width of the plot(its linewidth=1 by default btw)
-                color="Blue")  # customize the color of the line plot)
+                color="Blue",  # customize the color of the line plot
+                label="the third") # customize the label name of the line plot
+
+plt.legend() # we need this to show the legend which contains the names of the labels of the line plots to distinguish between the plots
 plt.show()
 
 
