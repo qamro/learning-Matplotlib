@@ -12,6 +12,7 @@ For example we have these data:
 Data: [1, 2, 2, 3, 5, 6, 7, 8]
 
 Bins=4:
+
 1–2
 3–4
 5–6
