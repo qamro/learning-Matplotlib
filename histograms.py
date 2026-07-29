@@ -30,6 +30,11 @@ scores = np.random.normal(loc=50, scale=10, size=100)
 # Standard deviation = 10 (that means almost all numbers will be around 40 and 60)
 
 
+# we use np.clip(scores, the lower bound, the upper bound) to limits the values of an array between two bounds
+# We use it here because if the normal distribution has a large scale
+# (for example scale=70), it may generate values below 0 or above 100.
+# np.clip() keeps all scores inside the valid range [0, 100].
+scores = np.clip(scores, 0 ,100)
 
 # create and customize our histogram
 plt.hist(scores, bins=5, # Number of intervals
