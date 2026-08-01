@@ -13,9 +13,9 @@ print(city_count) # print the city count to see what it looks like
 print()
 
 
-# create and customize a bar chart to visualize the number of students in each city
-plt.bar(city_count.index, city_count.values, color="skyblue")
+# create and customize a horizontal bar chart to visualize the number of students in each city
+plt.barh(city_count.index, city_count.values, color="skyblue")
 plt.title("Number of Students in Each City") # set the title of the bar chart
-plt.xlabel("City") # set the x-axis label of the bar chart
-plt.ylabel("Number of Students") # set the y-axis label of the bar chart
-plt.show() # show the bar chart
+plt.xlabel("Number of Students") # set the x-axis label of the bar chart
+plt.ylabel("City") # set the y-axis label of the bar chart
+plt.show() # show the horizontal bar chart
