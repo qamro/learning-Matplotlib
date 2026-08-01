@@ -24,13 +24,13 @@ axes[0, 0].legend() # show the legend for the first subplot
 
 
 # create and customize the second subplot in the first row and second column of the grid
-axes[0, 1].scatter(x, x**3, color="skyblue", label="y = x^3") # customize the second subplot 
+axes[0, 1].plot(x, x**3, color="skyblue", label="y = x^3") # customize the second subplot 
 axes[0, 1].set_title("y = x^3") # set the title of the second subplot
 axes[0, 1].legend() # show the legend for the second subplot
 
 
 # create and customize the third subplot in the second row and first column of the grid
-axes[1, 0].bar(x, x**4, color="lightgreen", label="y = x^4") # customize the third subplot
+axes[1, 0].plot(x, x**4, color="lightgreen", label="y = x^4") # customize the third subplot
 axes[1, 0].set_title("y = x^4") # set the title of the third subplot
 axes[1, 0].legend() # show the legend for the third subplot
 
@@ -43,3 +43,6 @@ axes[1, 1].legend() # show the legend for the fourth subplot
 
 plt.tight_layout() # adjust the spacing between subplots to prevent overlap
 plt.show()
+
+
+# NOTE: u can use any plot type in the subplots, for example: line plots, scatter plots, bar charts, histograms, etc.
