@@ -18,4 +18,6 @@ plt.barh(city_count.index, city_count.values, color="skyblue")
 plt.title("Number of Students in Each City") # set the title of the bar chart
 plt.xlabel("Number of Students") # set the x-axis label of the bar chart
 plt.ylabel("City") # set the y-axis label of the bar chart
+
+plt.tight_layout() # adjust the spacing and layout of the plot to prevent overlap and make it look better
 plt.show() # show the horizontal bar chart
